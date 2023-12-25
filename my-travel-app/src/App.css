@@ -1,0 +1,66 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.App-header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.App-nav {
+  background-color: #2980b9;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.App-nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1em;
+}
+
+.App-section {
+  padding: 20px;
+}
+
+.App-destination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.App-destination-card {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.App-destination-card:hover {
+  transform: scale(1.05);
+}
+
+.App-footer {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+img{width: 300px;
+height: 300px;}
